@@ -1,0 +1,77 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width:60%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #009688;
+  color: white;
+} 
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #f2f2f2;
+  border: 1px solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 8px;
+}
+
+.container {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 50%;
+}
+
+.container div{
+    display: table-cell;
+    width: 25%;
+    padding: 1rem;
+  
+}
+
+.navbar{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+
+.navbar a:hover {
+  background: #cccccc;
+  color: black;
+}
+
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+.w3-bar{
+  overflow: visible;
+}
+
+.unseen_notification{
+  background: #d5d839
+}
